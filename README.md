@@ -1,8 +1,9 @@
 # Simple-Projects
 
-[Project 1 : Python to Jupyter Notebook Converter](format_changer.py)
-  
-  
+- [Project 1 : Python to Jupyter Notebook Converter](Format_Changer)
+- [Project 2 : Picture Combiner](picture_combiner)
+
+---
 
   ## Python to Jupyter Notebook Converter
   
