@@ -1,6 +1,10 @@
 # Image Combination Scripts
 A collection of scripts that allow you to combine two images. These scripts support SVG, JPEG, and PNG formats.
 
+## Product (Python + Jupyter logos)
+![Combined SVG](https://raw.githubusercontent.com/NirTaube/Simple-Projects/2539f278d9c025bdc99cad270d80d771ecb20db9/Image_combination/combined2.svg)
+
+
 ### Table of Contents
 [SVG Combiner](SVG Combiner)
 [JPEG Combiner](JPEG Combiner)
