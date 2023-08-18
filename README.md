@@ -42,9 +42,9 @@ Feel free to report any issues or submit pull requests. Contributions are welcom
 A collection of scripts that allow you to combine two images. These scripts support SVG, JPEG, and PNG formats.
 
 ### Table of Contents
-[SVG Combiner](SVG Combiner)
-[JPEG Combiner](JPEG Combiner)
-[PNG Combiner](PNG Combiner)
+- [SVG Combiner](SVG Combiner)
+- [JPEG Combiner](JPEG Combiner)
+- [PNG Combiner](PNG Combiner)
 
 ### Usage
 
