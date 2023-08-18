@@ -1,7 +1,7 @@
 # Simple-Projects
 
-[Project 1 : Python to Jupyter Notebook Converter](Format_Changer)
-[Project 2 : Picture Combiner](picture_combiner)
+- [Project 1 : Python to Jupyter Notebook Converter](Format_Changer)
+- [Project 2 : Picture Combiner](picture_combiner)
 
 ---
 
