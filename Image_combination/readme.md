@@ -30,10 +30,10 @@ python jpeg_combiner.py
 ```
 
 It will prompt you for:
-The path to the first JPEG file.
-The path to the second JPEG file.
-The desired orientation: 'horizontal' for side-by-side or 'vertical' for one on top of the other.
-The path where the combined JPEG should be saved or if you are running this in the same folder you can just write the name and '.jpeg' .
+- The path to the first JPEG file.
+- The path to the second JPEG file.
+- The desired orientation: 'horizontal' for side-by-side or 'vertical' for one on top of the other.
+- The path where the combined JPEG should be saved or if you are running this in the same folder you can just write the name and '.jpeg' .
 
 ### PNG
 ```python
@@ -41,7 +41,7 @@ python png_combiner.py
 ```
 
 It will prompt you for:
-The path to the first PNG file.
-The path to the second PNG file.
-The desired orientation: 'horizontal' for side-by-side or 'vertical' for one on top of the other.
-The path where the combined PNG should be saved or if you are running this in the same folder you can just write the name and '.png'.
+- The path to the first PNG file.
+- The path to the second PNG file.
+- The desired orientation: 'horizontal' for side-by-side or 'vertical' for one on top of the other.
+- The path where the combined PNG should be saved or if you are running this in the same folder you can just write the name and '.png'.
