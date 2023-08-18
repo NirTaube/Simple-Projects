@@ -6,9 +6,9 @@ A collection of scripts that allow you to combine two images. These scripts supp
 
 
 ### Table of Contents
-[SVG Combiner](SVG Combiner)
-[JPEG Combiner](JPEG Combiner)
-[PNG Combiner](PNG Combiner)
+- [SVG Combiner](SVG Combiner)
+- [JPEG Combiner](JPEG Combiner)
+- [PNG Combiner](PNG Combiner)
 
 ### Usage
 
