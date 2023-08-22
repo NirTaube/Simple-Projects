@@ -1,8 +1,0 @@
-The keyword with the highest interest is 'GOOGLE MY BUSINESS'.
-
-Percentage change in interest:
-1w: 61.54%
-1m: 69.23%
-3m: 105.13%
-6m: 92.31%
-12m: 94.87%
