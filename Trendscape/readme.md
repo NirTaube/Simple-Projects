@@ -28,7 +28,7 @@ Using the provided keywords, the script builds a payload and retrieves Google Tr
 ## Plotting Trends <a name="plotting-trends"></a>
 The `plot_interest_over_time` function utilizes `plotly.graph_objects` to create a line chart. This chart visualizes the interest levels of each keyword over time.
 - ![Example Plots - Examination 1](EXAMPLE_PLOTS/Examination_1.png)
-- ![Example Heat Map](EXAMPLE_PLOTS/Heatmap_1.png)
+- ![Example Heat Map](EXAMPLE_PLOTS/heatmap_1.png)
 
 
 ## Percentage Changes <a name="percentage-changes"></a>
@@ -69,6 +69,68 @@ TrendScape+AI is a tool that fetches Google Trends data for user-inputted keywor
 2. Enter the desired keyword when prompted.
 3. Review the recommended related terms and choose any additional terms.
 4. View the Google Trends data visualization for the selected terms.
+
+## Ai implementations & Analysis
+
+Starting from the initial inquiry, Chat GPT will search related terms and continue the analysis
+- ![Example Plots - Examination 1](EXAMPLE_PLOTS/Examination_1.png)
+
+
+  Change in interest (%) in the following intervals 
+
+|         | 1w         | 1m         | 3m         | 6m         | 12m        |
+|---------|------------|------------|------------|------------|------------|
+| APPLE TV| 100.0      | 200.0      | 100.0      | 100.0      | 100.0      |
+| DISNEY+ | 46.153846  | 46.153846  | 53.846154  | 53.846154  | 84.615385  |
+| HULU    | 0.0        | 0.0        | 33.333333  | 33.333333  | 33.333333  |
+| NETFLIX | 5.128205   | 7.692308   | 15.384615  | 5.128205   | 15.384615  |
+| PRIME VIDEO| 200.0    | 200.0      | 200.0      | 200.0      | 250.0      |
+
+Print highest interest to view 
+```PYTHON PRINT(highest_interest)```
+|            | Count |
+|------------|-------|
+| DISNEY+    | 52    |
+| HULU       | 7     |
+| NETFLIX    | 100   |
+| APPLE TV   | 4     |
+| PRIME VIDEO| 8     |
+- ![Example Heat Map](EXAMPLE_PLOTS/heatmap_1.png)
+
+  
+Chat GPT returns
+Related Terms:
+- Amazon Fire TV
+- Sling TV
+- YouTube TV
+- HBO NOW
+- Crackle
+
+New Analysis
+
+- ![Example Plots - Examination 2](EXAMPLE_PLOTS/Examination_2.png)
+
+
+  Change in interest (%) in the following intervals 
+
+|             | 1w         | 1m         | 3m         | 6m         | 12m        |
+|-------------|------------|------------|------------|------------|------------|
+| Amazon Fire TV | -42.857143 | -42.857143 | -42.857143 | -28.571429 | -28.571429 |
+| Crackle     | -20.0      | -20.0      | -20.0      | -20.0      | -20.0      |
+| HBO NOW     | -80.0      | -80.0      | -80.0      | -80.0      | -80.0      |
+| Sling TV    | -73.684211 | -73.684211 | -68.421053 | -68.421053 | -42.105263 |
+| YouTube TV  | -6.779661  | 20.338983  | 16.949153  | 15.254237  | 37.288136  |
+
+-Print highest interest :
+|             | Interest |
+|-------------|----------|
+| Amazon Fire TV | 15      |
+| Sling TV    | 24       |
+| YouTube TV  | 100      |
+| HBO NOW     | 71       |
+| Crackle     | 7        |
+
+- ![Example Heat Map 2](EXAMPLE_PLOTS/Heatmap_2.png)
 
 ## API Integration
 This tool integrates with the OpenAI API to get recommendations from ChatGPT. Ensure you have a valid OpenAI API key and be aware of potential associated costs.
