@@ -44,7 +44,7 @@ To run the script, ensure the required libraries are installed. Upon execution, 
 ---
 
 # Trendscape Ai
-Using ChatGPI
+Using ChatGPT
 
 ## Description
 TrendScape+AI is a tool that fetches Google Trends data for user-inputted keywords and provides AI-powered recommendations for related terms using ChatGPT.
