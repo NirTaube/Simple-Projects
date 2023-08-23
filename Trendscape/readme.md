@@ -1,5 +1,5 @@
 # TRENDSCAPE 
-###### [click here for + ai](Trendscape-+-Ai-(ChatGPT))
+###### [click here for + ai](Trendscape-Ai)
 ## Google Trends Analysis
 
 This document outlines a Python script designed to analyze Google Trends data. The script employs various libraries to offer insights into the trends and popularity of user-specified keywords within a defined time frame. Here's a breakdown of the script's functionality:
@@ -37,7 +37,10 @@ The script displays the percentage change DataFrame, illustrating interest level
 To run the script, ensure the required libraries are installed. Upon execution, input desired keywords when prompted to gain insights into Google Trends data and keyword popularity trends.
 
 ---
-# Trendscape + Ai (ChatGPT)
+---
+---
+
+# Trendscape Ai
 
 
 ## Description
