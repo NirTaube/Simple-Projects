@@ -1,5 +1,5 @@
-# TRENDSCAPE
-
+# TRENDSCAPE 
+###### [click here for + ai](Trendscape-+-Ai-(ChatGPT))
 ## Google Trends Analysis
 
 This document outlines a Python script designed to analyze Google Trends data. The script employs various libraries to offer insights into the trends and popularity of user-specified keywords within a defined time frame. Here's a breakdown of the script's functionality:
@@ -35,3 +35,39 @@ The script calculates the percentage change in interest for each keyword over va
 The script displays the percentage change DataFrame, illustrating interest level fluctuations across selected time intervals. Additionally, it identifies the keyword with the highest interest.
 
 To run the script, ensure the required libraries are installed. Upon execution, input desired keywords when prompted to gain insights into Google Trends data and keyword popularity trends.
+
+---
+# Trendscape + Ai (ChatGPT)
+
+
+## Description
+TrendScape+AI is a tool that fetches Google Trends data for user-inputted keywords and provides AI-powered recommendations for related terms using ChatGPT.
+
+## Features
+- User prompts for keyword input.
+- Uses ChatGPT to get semantically related term recommendations.
+- Fetches and visualizes Google Trends data for the past 5 years based on the provided keywords.
+
+## Requirements
+- Python 3.6 or later.
+- Libraries: `pytrends`, `matplotlib`, `pandas`, `plotly`, and `requests`.
+- API key from OpenAi
+
+## Setup & Installation
+1. Clone this repository: `git clone <repository-url>` / Open In Collab
+2. Navigate to the project directory: `cd TrendScape+AI`
+3. Install required libraries: `pip install pytrends matplotlib pandas plotly requests`
+
+## Usage
+1. Run the script: `python trendscape+ai.py` / `jupter notebook` / Google collab
+2. Enter the desired keyword when prompted.
+3. Review the recommended related terms and choose any additional terms.
+4. View the Google Trends data visualization for the selected terms.
+
+## API Integration
+This tool integrates with the OpenAI API to get recommendations from ChatGPT. Ensure you have a valid OpenAI API key and be aware of potential associated costs.
+
+## License
+[Specify licensing details or mention "MIT License"]
+
+
