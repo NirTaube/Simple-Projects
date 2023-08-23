@@ -87,7 +87,7 @@ Starting from the initial inquiry, Chat GPT will search related terms and contin
 | PRIME VIDEO| 200.0    | 200.0      | 200.0      | 200.0      | 250.0      |
 
 Print highest interest to view 
-```PYTHON PRINT(highest_interest)```
+```python PRINT(highest_interest)```
 |            | Count |
 |------------|-------|
 | DISNEY+    | 52    |
