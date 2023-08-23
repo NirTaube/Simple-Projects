@@ -2,7 +2,7 @@
 
 - [Project 1 : Python to Jupyter Notebook Converter](Format_Changer)
 - [Project 2 : Image Combination Scripts](Image_combination)
-- [Project 3 : Trendscape](Trendscape)
+- [Project 3 : Trendscape + Ai](Trendscape)
 ---
 
   ## Python to Jupyter Notebook Converter
