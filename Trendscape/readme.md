@@ -135,7 +135,4 @@ New Analysis
 ## API Integration
 This tool integrates with the OpenAI API to get recommendations from ChatGPT. Ensure you have a valid OpenAI API key and be aware of potential associated costs.
 
-## License
-[Specify licensing details or mention "MIT License"]
-
 
