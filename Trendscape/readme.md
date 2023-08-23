@@ -27,6 +27,9 @@ Using the provided keywords, the script builds a payload and retrieves Google Tr
 
 ## Plotting Trends <a name="plotting-trends"></a>
 The `plot_interest_over_time` function utilizes `plotly.graph_objects` to create a line chart. This chart visualizes the interest levels of each keyword over time.
+![Example Plots - Examination 1](EXAMPLE_PLOTS/examination_1.png)
+![Example Heat Map](EXAMPLE_PLOTS/heatmap_1)
+
 
 ## Percentage Changes <a name="percentage-changes"></a>
 The script calculates the percentage change in interest for each keyword over various time intervals (`1w`, `1m`, `3m`, `6m`, `12m`). It compares initial and final interest levels within each interval.
