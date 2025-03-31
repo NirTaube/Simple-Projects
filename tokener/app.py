@@ -40,6 +40,7 @@ prompt = st.text_area("Enter your prompt:", height=200)
 
 # Estimated completion length
 completion_tokens = st.slider("Estimated completion length (in tokens):", 0, 2000, 100)
+st.write(f"This is how many tokens you expect the model to generate in response to your prompt. You can adjust this slider based on your needs.")
 
 # Save and load history
 if "prompt_history" not in st.session_state:
